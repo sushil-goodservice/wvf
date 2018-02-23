@@ -1,0 +1,7 @@
+.sprite { background: url('sprite.png') no-repeat top left; width: 18px; height: 18px;  } 
+.sprite.username-icon1 { background-position: 0 0; width: 14px; height: 14px;position: absolute; top: 10px; left: 10px } 
+.sprite.uncheck1 { background-position: 0 -24px; } 
+.sprite.password-icon { background-position: 0 -52px; width: 13px; height: 13px; position: absolute; top: 10px; left: 10px} 
+.sprite.mainlogin-icon1 { background-position: 0 -75px; width: 43px; height: 48px;display: inherit;margin: 3px 0;
+} 
+.sprite.check1 { background-position: 0 -133px; } 

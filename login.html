@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sprite.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-gray login">
+    <div class="container">
+        <!--
+        <div class='sprite username-icon1'></div>
+        <div class='sprite uncheck1'></div>
+        <div class='sprite password-icon'></div>
+        <div class='sprite mainlogin-icon1'></div>
+        <div class='sprite check1'></div>
+        -->
+        <div class="form-box">
+            <div class="form-header bg-blue text-center">
+                <div class="circle">
+                    <div class='sprite mainlogin-icon1'></div>
+                </div>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <!-- <label for="email">Email address:</label> -->
+                    <div class='sprite username-icon1'></div>
+                    <input type="email" placeholder="Email address" class="form-control icon-input" id="email">
+                </div>
+                <div class="form-group">
+                    <!--<label for="pwd">Password:</label> -->
+                    <div class='sprite password-icon'></div>
+                    <input type="password" class="form-control icon-input" placeholder="Password" id="pwd">
+                </div>
+                <div class="checkbox clearfix">
+                    <label class="pull-left">
+                        <input type="checkbox"> Remember me</label>
+                    <a href="#" class="pull-right">Forgot Password?</a>
+                </div>
+                <div class="f-submit text-center">
+                    <button type="submit" class="btn btn-login btn-md">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
