@@ -160,14 +160,12 @@ a.fg-link {
   padding: 15px 30px;
   display: inline-block;
 }
-
-.dropdown1 span:hover i.fa.fa-angle-down {
+.navbar-nav li.dropdown1 span:hover i.fa.fa-angle-down {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
 }
-
-.dropdown1 span:hover ul.dropdown-menu {
+.navbar-nav li.dropdown1 span:hover ul.dropdown-menu {
   display: block;
 }
 
