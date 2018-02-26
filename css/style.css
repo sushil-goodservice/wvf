@@ -102,13 +102,22 @@ a.fg-link {
   z-index: 2;
 }
 
-.navbar-nav > li > a {
+.navbar-nav li a {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu li a {
   padding: 10px 20px;
+}
+
+.dropdown1 a {
+  color: #333;
+}
+.dropdown1 .dropdown-menu li a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #3cacc3;
 }
 
 .dropdown-menu {
@@ -135,7 +144,8 @@ table .action-icon:hover {
   text-decoration: none;
 }
 
-tr.selectcolumn, td.selectcolumn {
+tr.selectcolumn,
+td.selectcolumn {
   width: 40px;
   text-align: center;
 }
