@@ -138,13 +138,37 @@ a.fg-link {
   padding: 10px 20px;
 }
 
-.dropdown1 a {
+.dropdown1 span {
   color: #333;
+}
+.dropdown1 span i.fa.fa-angle-down {
+  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
 }
 .dropdown1 .dropdown-menu li a:hover {
   color: #fff;
   text-decoration: none;
   background-color: #3cacc3;
+}
+
+.navbar-right .dropdown-menu {
+  top: 40px;
+}
+
+.navbar-nav li.dropdown1 span {
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.dropdown1 span:hover i.fa.fa-angle-down {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+}
+
+.dropdown1 span:hover ul.dropdown-menu {
+  display: block;
 }
 
 .dropdown-menu {
