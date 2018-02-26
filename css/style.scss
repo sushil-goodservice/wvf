@@ -77,6 +77,21 @@ body {
     }
 }
 
+.custom-checkbox{
+    height: 18px;
+}
+.custom-checkbox input[type="checkbox"]{
+    display: none;
+}
+.custom-checkbox input[type="checkbox"] + label{
+    padding: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+.custom-checkbox input[type="checkbox"]:checked + label span.uncheck1{
+    background-position: 0 -133px;
+}
+
 .form-group {
     position: relative;
     margin-bottom: 20px;
@@ -93,6 +108,11 @@ body {
 a.fg-link {
     color: #3cacc3;
     text-decoration: underline;
+    text-align: right;
+    font-size: 13px;
+}
+.mr-0{
+    margin-right: 0 !important;
 }
 
 /* navigation style */
@@ -173,7 +193,7 @@ table {
 
 tr.selectcolumn,
 td.selectcolumn {
-    width: 40px;
+    width: 50px;
     text-align: center;
 }
 
