@@ -135,6 +135,11 @@ table .action-icon:hover {
   text-decoration: none;
 }
 
+tr.selectcolumn, td.selectcolumn {
+  width: 40px;
+  text-align: center;
+}
+
 /* crating helper class with sass */
 .m-t-0 {
   margin-top: 0px !important;
