@@ -18,9 +18,12 @@ body.login {
 }
 
 .form-box {
-  margin: 100px auto 0;
-  max-height: 400px;
-  width: 350px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
   background-color: #fff;
   border-bottom: 4px solid #3cacc3;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
