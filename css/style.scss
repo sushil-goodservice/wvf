@@ -205,25 +205,26 @@ li.dropdown {
     }
 }
 
-.fa.fa-angle-down{
+.fa.fa-angle-down {
     transition: all 0.5s;
 }
-.dropdown.open{
-        &:hover{
-            i.fa.fa-angle-down{
-                transform: rotate(180deg);
-            }
-        }    
+
+.dropdown.open {
+    &:hover {
+        i.fa.fa-angle-down {
+            transform: rotate(180deg);
+        }
+    }
 }
 
-.footer{
-    background:#474747;
+.footer {
+    background: #474747;
     padding: 12px;
     margin-top: 15px;
-    footer{
+    footer {
         text-align: center;
-        p{
-            margin:0;
+        p {
+            margin: 0;
             text-transform: uppercase;
             font-size: 11px;
             color: #fff;
@@ -397,18 +398,17 @@ $sides: (top, bottom, left, right); // Leave this variable alone
     .navbar-nav {
         .open {
             .dropdown-menu {
-                .dropdown-header{
-                       padding: 5px 15px 5px 40px;
-                    }
-                }
-            }
-    } 
-    .navbar-nav {
-        .open {
-            .dropdown-menu>li>a{
+                .dropdown-header {
                     padding: 5px 15px 5px 40px;
+                }
             }
         }
     }
-
+    .navbar-nav {
+        .open {
+            .dropdown-menu>li>a {
+                padding: 5px 15px 5px 40px;
+            }
+        }
+    }
 }
